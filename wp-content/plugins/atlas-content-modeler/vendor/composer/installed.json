@@ -1,0 +1,54 @@
+{
+    "packages": [
+        {
+            "name": "wpengine/acm-content-connect",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpengine/acm-content-connect.git",
+                "reference": "a3ef265b77dd5cb3d28f4f7a4a47689fc560ac98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpengine/acm-content-connect/zipball/a3ef265b77dd5cb3d28f4f7a4a47689fc560ac98",
+                "reference": "a3ef265b77dd5cb3d28f4f7a4a47689fc560ac98",
+                "shasum": ""
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.2.0",
+                "phpunit/phpunit": "^5.7"
+            },
+            "time": "2021-08-30T16:08:31+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WPE\\AtlasContentModeler\\ContentConnect\\": "includes",
+                    "WPE\\AtlasContentModeler\\ContentConnect\\Tests\\Integration\\": "tests/integration"
+                },
+                "files": [
+                    "includes/Helpers.php"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Marslender",
+                    "email": "chris.marslender@10up.com"
+                }
+            ],
+            "description": "Post to Post Library for Atlas Content Modeler",
+            "support": {
+                "source": "https://github.com/wpengine/acm-content-connect/tree/main",
+                "issues": "https://github.com/wpengine/acm-content-connect/issues"
+            },
+            "install-path": "../wpengine/acm-content-connect"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
